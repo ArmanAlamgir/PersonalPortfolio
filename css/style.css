@@ -1,0 +1,190 @@
+/*import fonts from fonts.css file*/
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+
+/*start navigation*/
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 0rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+   font: normal 500 15px/2px var(--roboto) ;/*call font function established in _variables.css file*/
+   text-transform: uppercase;
+   padding: 1.7rem;
+   color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav a:hover{
+    color: gray;
+}
+
+/*end navigation*/
+
+
+/*banner area*/
+.site-main .site-banner .site-title h2{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-weight: 500;
+    color: grey;
+    letter-spacing: 3px;
+
+}
+.site-main .site-banner .site-title h4{
+    padding-left: 10%;
+    font-weight: 500;
+    color: grey;
+
+}
+.site-main .site-banner .site-title h3{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+    padding: 3rem 0;
+    width: 90rem;
+}
+.site-main .site-banner .banner-image > img{
+    padding: 2rem 0;
+    width: 90rem;
+}
+
+#orange_letters{
+    color: #e85d04;
+}
+#hoverorange{
+    text-decoration: none;
+    color: grey;
+    transition: 1s;
+}
+#hoverorange:hover{
+    color: #e85d04;
+}
+/*end banner area*/
+
+/*start let me introduce myself area*/
+#resume{
+    background: #f27131;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition:background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+#resume:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: grey;
+   
+}
+#greyletters{
+    color: grey;
+}
+.site-main .about-area{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+    padding-left: 5rem; 
+}
+
+/*end let me introduce myself area*/
+
+/*start of skills area*/
+.site-main .skills-area{
+    padding: 0rem 3rem;
+    margin-bottom: 0rem;
+}
+.site-main .skills-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.site-main .skills-area .first-row .col-lg-4 > .single-skills{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+    
+}
+.site-main .skills-area .first-row .col-lg-4 > .single-skills > img{
+    width: 50%;
+}
+
+.site-main .skills-area .first-row .col-lg-4 > .single-skills:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .skills-area .first-row .col-lg-4 > .single-skills:hover > img{
+    filter: brightness(1.15);
+}
+
+.site-main .skills-area .skills-area{
+    padding-left: 5rem;
+    padding-top: 7rem;
+    text-align: right;
+    letter-spacing: 15px;
+}
+.site-main .skills-area .skills-area span{
+    display: block;
+}
+/*start of timeline area*/
+.site-main .timeline-area{
+    padding: 0rem 2rem;
+}
+.site-main .timeline-area .timeline-title{
+    padding: 0 14rem 0rem 14rem;
+}
+.site-main > .timeline-area .timeline{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 2rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .timeline-area .timeline:hover{
+    box-shadow: var(--box-shadow);
+}
+/*end of timeline area*/
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 0rem 2rem 5rem 2rem;
+}
+
+#projectimages{
+    border-radius: 10px;
+}
+
+.site-main .project-area .grid .my-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(var(--box-shadow));
+}
+
+/* End Project Area */ 
+
+
+/* Start Contact- footer Area*/
+footer.footer-area{
+    padding: 2rem 0rem 2rem 0rem;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: #e85d04;
+}
+/* Start Contact- footer Area*/
